@@ -1,0 +1,30 @@
+/*.scroll-pane .viewport {*/
+/*    -fx-background: transparent;*/
+/*}*/
+
+#mainScrollPane, #textScrollPane,#homeScrollPane, #productionRuleScrollPane{
+    -fx-background:transparent;
+}
+
+
+.border {
+    -fx-background-radius: 10;
+}
+
+#inputLabel, #diagramLabel, #tapeLabel{
+    -fx-background-color: #000;
+    -fx-background-radius: 90px;
+    -fx-padding: 3px;
+    -fx-border-color: #7debfc;
+    -fx-border-width: 2px;
+    -fx-border-radius: 90px;
+}
+
+.color{
+    -fx-background-color: #5A3EB8;
+
+}
+
+.back{
+    -fx-background-color: transparent;
+}

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import java.lang.String?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="802.0" prefWidth="1545.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cst4_finalproject.OptionsCont">
+   <children>
+      <ImageView fitHeight="1024.0" fitWidth="1685.0" layoutX="-141.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/bg.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" height="470.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1543.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#000000f2" height="543.0" layoutX="24.0" layoutY="235.0" opacity="0.25" stroke="BLACK" strokeType="INSIDE" width="683.0" />
+      <ImageView fitHeight="113.0" fitWidth="214.0" layoutX="-14.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/TeamHiluxLogoInverted69-01-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Line endX="605.9998779296875" endY="-1.52587890625E-5" layoutX="937.0" layoutY="116.0" startX="65.7332763671875" startY="-1.52587890625E-5" stroke="#db81ef" strokeWidth="2.0" />
+      <Text fill="#56ffff" layoutX="790.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose Operation">
+         <font>
+            <Font name="Tektur Narrow Regular" size="26.0" />
+         </font>
+      </Text>
+      <ScrollPane fx:id="mainScrollPane" hbarPolicy="NEVER" layoutX="752.0" layoutY="235.0" pannable="true" prefHeight="543.0" prefWidth="746.0" style="-fx-background-color: transparent;" stylesheets="@../../../Style/style.css" vbarPolicy="NEVER">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1341.0" prefWidth="743.0" style="-fx-background: transparent;">
+               <children>
+                  <ImageView fitHeight="369.0" fitWidth="383.0" layoutX="20.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/Options%20frame.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="193.0" fitWidth="299.0" layoutX="100.0" layoutY="152.0" opacity="0.85" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/462557190_2032302897187355_6519296914986504553_n.png" />
+                     </image></ImageView>
+                  <Line endX="69.20001220703125" endY="-1.52587890625E-5" layoutX="238.0" layoutY="126.0" startX="-150.8000030517578" startY="-1.52587890625E-5" stroke="#db81ef" strokeWidth="2.5" />
+                  <Text fill="#db81ef" layoutX="254.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CFG" wrappingWidth="46.93328857421875">
+                     <font>
+                        <Font name="Tektur Narrow Regular" size="20.0" />
+                     </font>
+                  </Text>
+                  <Polyline fill="#d980ed00" layoutX="164.0" layoutY="329.0" points="-77.00001525878906, 40.199981689453125, 146.40008544921875, 40.199981689453125, 92.79998779296875, 79.4000244140625, -77.00001525878906, 79.40008544921875" stroke="#db81ef" strokeType="INSIDE" strokeWidth="3.0" />
+                  <Line endX="149.7999725341797" endY="463.20001220703125" layoutX="-62.0" layoutY="-93.0" startX="149.7999725341797" startY="500.79998779296875" stroke="#db81ef" strokeWidth="3.0" />
+                  <JFXButton fx:id="simulatecfg" buttonType="RAISED" layoutX="89.0" layoutY="370.0" onAction="#gotoCFG" prefHeight="30.0" prefWidth="168.0" text="       SIMULATE" textFill="#db81ef">
+                     <font>
+                        <Font name="Tektur Narrow Regular" size="20.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="ButtonCFG" layoutX="68.0" layoutY="73.0" onAction="#CFGText" prefHeight="287.0" prefWidth="260.0" text="." />
+                  <ImageView fitHeight="369.0" fitWidth="383.0" layoutX="394.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/Options%20frame.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="193.0" fitWidth="196.0" layoutX="479.0" layoutY="152.0" opacity="0.85" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/462545674_1969584110227650_7606825558715554631_n.png" />
+                     </image>
+                  </ImageView>
+                  <Line endX="69.20001220703125" endY="-1.52587890625E-5" layoutX="612.0" layoutY="126.0" startX="-150.8000030517578" startY="-1.52587890625E-5" stroke="#db81ef" strokeWidth="2.5" />
+                  <Text fill="#db81ef" layoutX="628.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DFA" wrappingWidth="46.93328857421875">
+                     <font>
+                        <Font name="Tektur Narrow Regular" size="20.0" />
+                     </font>
+                  </Text>
+                  <Polyline fill="#d980ed00" layoutX="538.0" layoutY="329.0" points="-77.00001525878906, 40.199981689453125, 146.40008544921875, 40.199981689453125, 92.79998779296875, 79.4000244140625, -77.00001525878906, 79.40008544921875" stroke="#db81ef" strokeType="INSIDE" strokeWidth="3.0" />
+                  <Line endX="149.7999725341797" endY="463.20001220703125" layoutX="312.0" layoutY="-93.0" startX="149.7999725341797" startY="500.79998779296875" stroke="#db81ef" strokeWidth="3.0" />
+                  <JFXButton fx:id="simulatedfa" buttonType="RAISED" layoutX="463.0" layoutY="370.0" onAction="#gotoDFA" prefHeight="30.0" prefWidth="168.0" text="       SIMULATE" textFill="#db81ef">
+                     <font>
+                        <Font name="Tektur Narrow Regular" size="20.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="436.0" layoutY="77.0" onAction="#DFAText" prefHeight="287.0" prefWidth="260.0" text="." />
+                  <ImageView fitHeight="369.0" fitWidth="383.0" layoutX="20.0" layoutY="498.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/Options%20frame.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="205.0" fitWidth="192.0" layoutX="101.0" layoutY="575.0" opacity="0.85" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/462553399_1718077005683080_8435976222017633057_n.png" />
+                     </image>
+                  </ImageView>
+                  <Line endX="69.20001220703125" endY="-1.52587890625E-5" layoutX="238.0" layoutY="550.0" startX="-150.8000030517578" startY="-1.52587890625E-5" stroke="#db81ef" strokeWidth="2.5" />
+                  <Text fill="#db81ef" layoutX="254.0" layoutY="536.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NDFA" wrappingWidth="46.93328857421875">
+                     <font>
+                        <Font name="Tektur Narrow Regular" size="20.0" />
+                     </font>
+                  </Text>
+                  <Polyline fill="#d980ed00" layoutX="164.0" layoutY="753.0" points="-77.00001525878906, 40.199981689453125, 146.40008544921875, 40.199981689453125, 92.79998779296875, 79.4000244140625, -77.00001525878906, 79.40008544921875" stroke="#db81ef" strokeType="INSIDE" strokeWidth="3.0" />
+                  <Line endX="149.7999725341797" endY="463.20001220703125" layoutX="-62.0" layoutY="331.0" startX="149.7999725341797" startY="500.79998779296875" stroke="#db81ef" strokeWidth="3.0" />
+                  <JFXButton fx:id="simulatendfa" buttonType="RAISED" layoutX="89.0" layoutY="794.0" onAction="#gotoNDFA" prefHeight="30.0" prefWidth="168.0" text="       SIMULATE" textFill="#db81ef">
+                     <font>
+                        <Font name="Tektur Narrow Regular" size="20.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="66.0" layoutY="505.0" onAction="#NFAText" prefHeight="287.0" prefWidth="260.0" text="." />
+                  <ImageView fitHeight="369.0" fitWidth="383.0" layoutX="391.0" layoutY="497.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/Options%20frame.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="214.0" fitWidth="195.0" layoutX="473.0" layoutY="576.0" opacity="0.85" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/462542083_899290598283076_8968576973755462590_n.png" />
+                     </image>
+                  </ImageView>
+                  <Line endX="69.20001220703125" endY="-1.52587890625E-5" layoutX="609.0" layoutY="549.0" startX="-150.8000030517578" startY="-1.52587890625E-5" stroke="#db81ef" strokeWidth="2.5" />
+                  <Text fill="#db81ef" layoutX="625.0" layoutY="535.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PDA" wrappingWidth="46.93328857421875">
+                     <font>
+                        <Font name="Tektur Narrow Regular" size="20.0" />
+                     </font>
+                  </Text>
+                  <Polyline fill="#d980ed00" layoutX="535.0" layoutY="752.0" points="-77.00001525878906, 40.199981689453125, 146.40008544921875, 40.199981689453125, 92.79998779296875, 79.4000244140625, -77.00001525878906, 79.40008544921875" stroke="#db81ef" strokeType="INSIDE" strokeWidth="3.0" />
+                  <Line endX="149.7999725341797" endY="463.20001220703125" layoutX="309.0" layoutY="330.0" startX="149.7999725341797" startY="500.79998779296875" stroke="#db81ef" strokeWidth="3.0" />
+                  <JFXButton fx:id="simulatePDA" buttonType="RAISED" layoutX="460.0" layoutY="793.0" onAction="#gotoPDA" prefHeight="30.0" prefWidth="168.0" text="       SIMULATE" textFill="#db81ef">
+                     <font>
+                        <Font name="Tektur Narrow Regular" size="20.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="437.0" layoutY="504.0" onAction="#PDAText" prefHeight="287.0" prefWidth="260.0" text="." />
+                  <ImageView fitHeight="369.0" fitWidth="383.0" layoutX="388.0" layoutY="916.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/Options%20frame.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="200.0" fitWidth="194.0" layoutX="471.0" layoutY="993.0" opacity="0.85" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/462547721_1525050841472196_8691292070903118950_n.png" />
+                     </image>
+                  </ImageView>
+                  <Line endX="69.20001220703125" endY="-1.52587890625E-5" layoutX="606.0" layoutY="968.0" startX="-150.8000030517578" startY="-1.52587890625E-5" stroke="#db81ef" strokeWidth="2.5" />
+                  <Text fill="#db81ef" layoutX="585.0" layoutY="956.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOWER OF HANOI" wrappingWidth="106.13336181640625">
+                     <font>
+                        <Font name="Tektur Narrow Regular" size="16.0" />
+                     </font>
+                  </Text>
+                  <Polyline fill="#d980ed00" layoutX="532.0" layoutY="1171.0" points="-77.00001525878906, 40.199981689453125, 146.40008544921875, 40.199981689453125, 92.79998779296875, 79.4000244140625, -77.00001525878906, 79.40008544921875" stroke="#db81ef" strokeType="INSIDE" strokeWidth="3.0" />
+                  <Line endX="149.7999725341797" endY="463.20001220703125" layoutX="306.0" layoutY="749.0" startX="149.7999725341797" startY="500.79998779296875" stroke="#db81ef" strokeWidth="3.0" />
+                  <JFXButton fx:id="simulateth" buttonType="RAISED" layoutX="457.0" layoutY="1212.0" onAction="#gotoTH" prefHeight="30.0" prefWidth="168.0" text="       SIMULATE" textFill="#db81ef">
+                     <font>
+                        <Font name="Tektur Narrow Regular" size="20.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="438.0" layoutY="920.0" onAction="#TowerOfHanoiText" prefHeight="287.0" prefWidth="260.0" text="." />
+                  <ImageView fitHeight="369.0" fitWidth="383.0" layoutX="18.0" layoutY="916.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/Options%20frame.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="198.0" fitWidth="199.0" layoutX="95.0" layoutY="992.0" opacity="0.85" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/Screenshot%202024-10-04%20212204.png" />
+                     </image>
+                  </ImageView>
+                  <Line endX="69.20001220703125" endY="-1.52587890625E-5" layoutX="236.0" layoutY="968.0" startX="-150.8000030517578" startY="-1.52587890625E-5" stroke="#db81ef" strokeWidth="2.5" />
+                  <Text fill="#db81ef" layoutX="212.0" layoutY="957.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Turing Machine" wrappingWidth="164.00006103515625">
+                     <font>
+                        <Font name="Tektur Narrow Regular" size="18.0" />
+                     </font>
+                  </Text>
+                  <Polyline fill="#d980ed00" layoutX="162.0" layoutY="1171.0" points="-77.00001525878906, 40.199981689453125, 146.40008544921875, 40.199981689453125, 92.79998779296875, 79.4000244140625, -77.00001525878906, 79.40008544921875" stroke="#db81ef" strokeType="INSIDE" strokeWidth="3.0" />
+                  <Line endX="149.7999725341797" endY="463.20001220703125" layoutX="-64.0" layoutY="749.0" startX="149.7999725341797" startY="500.79998779296875" stroke="#db81ef" strokeWidth="3.0" />
+                  <JFXButton fx:id="simulatetm" buttonType="RAISED" layoutX="87.0" layoutY="1212.0" onAction="#gotoTM" prefHeight="30.0" prefWidth="168.0" text="       SIMULATE" textFill="#db81ef">
+                     <font>
+                        <Font name="Tektur Narrow Regular" size="20.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="66.0" layoutY="919.0" onAction="#TuringMachine" prefHeight="287.0" prefWidth="260.0" text="." />
+               </children>
+            </AnchorPane>
+        </content>
+         <styleClass>
+            <String fx:value="viewport" />
+            <String fx:value="scroll-pane" />
+         </styleClass>
+      </ScrollPane>
+      <Text fill="#db81ef" layoutX="51.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CST4 FORMAL LANGUAGES AND AUTOMATA" wrappingWidth="547.8498992919922">
+         <font>
+            <Font name="Tektur Narrow Bold" size="51.0" />
+         </font>
+      </Text>
+      <ScrollPane fx:id="textScrollPane" hbarPolicy="NEVER" layoutX="52.0" layoutY="240.0" pannable="true" prefHeight="551.0" prefWidth="626.0" style="-fx-background-color: transparent;" stylesheets="@../../../Style/style.css" vbarPolicy="NEVER">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="697.0" prefWidth="630.0">
+               <children>
+                  <JFXTextArea fx:id="textArea" editable="false" focusColor="WHITE" layoutX="-2.0" layoutY="-2.0" prefHeight="703.0" prefWidth="634.0" style="-fx-background: transparent;" unFocusColor="WHITE" wrapText="true" />
+               </children></AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

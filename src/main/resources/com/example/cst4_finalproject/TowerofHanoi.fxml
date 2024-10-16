@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="788.0" prefWidth="1541.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cst4_finalproject.TowersOfHanoiController">
+   <children>
+      <ImageView fitHeight="790.0" fitWidth="1544.0" layoutX="-2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/EditedBg.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#000000bf" height="97.0" stroke="BLACK" strokeType="INSIDE" width="1543.0" />
+      <ImageView fitHeight="161.0" fitWidth="274.0" layoutX="-56.0" layoutY="-22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/TeamHiluxLogoInverted69-01-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="236.0" layoutY="131.0" prefHeight="470.0" prefWidth="1062.0" style="-fx-background-color: #f2f2f2; -fx-border-color: #DB81EF; -fx-border-width: 2px;">
+         <children>
+            <Label fx:id="diagramLabel" layoutX="460.0" layoutY="-23.0" prefHeight="55.0" prefWidth="149.0" stylesheets="@../../../Style/style.css" text="     DIAGRAM" textFill="#7debfc">
+               <font>
+                  <Font name="Tektur Narrow Regular" size="27.0" />
+               </font>
+            </Label>
+            <Label fx:id="presentMoveLabel" layoutX="460.0" layoutY="43.0" prefHeight="46.0" prefWidth="567.0" text="Present Move:">
+               <font>
+                  <Font name="Tektur Narrow Regular" size="35.0" />
+               </font>
+            </Label>
+            <AnchorPane fx:id="drawingPane" layoutX="10.0" layoutY="-48.0" prefHeight="543.0" prefWidth="900.0" />
+         </children>
+      </AnchorPane>
+      <Rectangle arcWidth="5.0" fill="#5a3eb8" height="62.0" layoutX="491.0" layoutY="713.0" stroke="#5a3eb8" strokeType="INSIDE" width="150.0" />
+      <Rectangle arcWidth="5.0" fill="#5a3eb8" height="60.0" layoutX="711.0" layoutY="713.0" stroke="#5a3eb8" strokeType="INSIDE" width="150.0" />
+      <Rectangle arcWidth="5.0" fill="#5a3eb8" height="58.0" layoutX="927.0" layoutY="715.0" stroke="#5a3eb8" strokeType="INSIDE" width="121.0" />
+      <ImageView fitHeight="41.0" fitWidth="39.0" layoutX="773.0" layoutY="724.0" opacity="0.6" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/play-button.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="547.0" layoutY="724.0" opacity="0.6" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/arrow-circle.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="45.0" layoutX="961.0" layoutY="723.0" opacity="0.6" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/logout.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="236.0" layoutY="619.0" prefHeight="82.0" prefWidth="518.0" style="-fx-background-color: #000000; -fx-border-color: #DB81EF; -fx-border-width: 2px;">
+         <children>
+            <Label layoutX="31.0" layoutY="20.0" text="No. of Disc" textFill="#5a3eb8">
+               <font>
+                  <Font name="Tektur Narrow Regular" size="35.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="777.0" layoutY="618.0" prefHeight="82.0" prefWidth="518.0" style="-fx-background-color: #000000; -fx-border-color: #DB81EF; -fx-border-width: 2px;">
+         <children>
+            <Label layoutX="23.0" layoutY="22.0" text="No. of Moves" textFill="#5a3eb8">
+               <font>
+                  <Font name="Tektur Narrow Regular" size="35.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="numOfMovesLabel" editable="false" layoutX="222.0" layoutY="13.0" prefHeight="48.0" prefWidth="274.0" text="                      ">
+               <font>
+                  <Font name="Tektur Narrow Regular" size="20.0" />
+               </font></TextArea>
+            <TextField fx:id="numOfDisksField" layoutX="-338.0" layoutY="19.0" prefHeight="46.0" prefWidth="279.0">
+               <font>
+                  <Font name="Tektur Narrow Regular" size="25.0" />
+               </font></TextField>
+         </children>
+      </Pane>
+      <Text fill="#db81ef" layoutX="144.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tower of Hanoi Simulator">
+         <font>
+            <Font name="Tektur Narrow Regular" size="45.0" />
+         </font>
+      </Text>
+      <Polyline fill="#5a3eb8" layoutX="440.0" layoutY="734.0" points="30.79998779296875, 23.5999755859375, 30.79998779296875, -6.39996337890625, 51.5999755859375, -22.0, 51.5999755859375, 41.60003662109375" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polyline fill="#5a3eb8" layoutX="610.0" layoutY="728.0" points="30.79998779296875, 46.79998779296875, 30.79998779296875, -14.79998779296875, 68.5999755859375, -14.79998779296875, 30.79998779296875, 46.79998779296875" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polyline fill="#5a3eb8" layoutX="671.0" layoutY="727.0" points="1.79998779296875, 46.79998779296875, 40.0, -15.0, 40.0, -15.0, 40.0, 46.79998779296875" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polyline fill="#5a3eb8" layoutX="830.0" layoutY="726.0" points="30.79998779296875, 46.79998779296875, 30.79998779296875, -12.5999755859375, 68.4000244140625, -12.5999755859375, 30.79998779296875, 46.79998779296875" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polyline fill="#5a3eb8" layoutX="887.0" layoutY="728.0" points="4.4000244140625, 45.4000244140625, 40.0, -13.20001220703125, 40.0, -13.20001220703125, 40.0, 45.4000244140625" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polyline fill="#5a3eb8" layoutX="996.0" layoutY="733.0" points="68.2000732421875, 25.60003662109375, 68.2000732421875, -7.79998779296875, 51.5999755859375, -17.5999755859375, 51.5999755859375, 39.79998779296875" strokeType="INSIDE" strokeWidth="0.0" />
+      <JFXButton fx:id="startButton" layoutX="715.0" layoutY="705.0" onAction="#onStartButtonClick" prefHeight="64.0" prefWidth="150.0" text="Play" textFill="WHITE">
+         <font>
+            <Font name="Tektur Narrow Regular" size="39.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="exitButton" layoutX="926.0" layoutY="704.0" onAction="#gotoHome" prefHeight="76.0" prefWidth="121.0" text="Exit" textFill="WHITE">
+         <font>
+            <Font name="Tektur Narrow Regular" size="39.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="477.0" layoutY="705.0" onAction="#onClearButtonClick" prefHeight="76.0" prefWidth="170.0" text="Restart" textFill="WHITE">
+         <font>
+            <Font name="Tektur Narrow Regular" size="39.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

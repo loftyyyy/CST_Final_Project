@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="788.0" prefWidth="1542.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cst4_finalproject.HomePageCont">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="788.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1541.0" />
+      <ImageView fitHeight="786.0" fitWidth="799.0" layoutX="-4.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/bg2.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="788.0" fitWidth="1147.0" layoutX="311.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/Gradient%20Black.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="788.0" fitWidth="1118.0" layoutX="260.0" layoutY="1.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/Gradient%20Black.png" />
+         </image>
+      </ImageView>
+        <Rectangle arcWidth="5.0" fill="#00000080" height="788.0" layoutX="-103.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="1541.0" />
+      <Text fill="#db81ef" layoutX="92.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TEAM" wrappingWidth="727.2001132965088">
+         <font>
+            <Font name="Tektur Narrow Bold" size="200.0" />
+         </font>
+      </Text>
+        <Text fill="#db81ef" layoutX="39.0" layoutY="589.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" HILUX" wrappingWidth="710.1334228515625">
+            <font>
+                <Font name="Tektur Narrow Bold" size="250.0" />
+            </font>
+        </Text>
+      <ImageView fitHeight="479.0" fitWidth="632.0" layoutX="73.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/Team%20Hilux.png" />
+         </image>
+      </ImageView>
+      <Text fill="#d980ed00" layoutX="92.0" layoutY="333.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.5" text="TEAM" wrappingWidth="727.2001132965088">
+         <font>
+            <Font name="Tektur Narrow Bold" size="200.0" />
+         </font>
+      </Text>
+        <Text fill="#ffffff00" layoutX="39.0" layoutY="590.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.5" text=" HILUX" wrappingWidth="697.8667602539062">
+            <font>
+                <Font name="Tektur Narrow Bold" size="250.0" />
+            </font>
+        </Text>
+        <Text fill="#db81ef" layoutX="90.0" layoutY="697.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TEAM HILUX">
+            <font>
+                <Font name="Tektur Narrow Regular" size="50.0" />
+            </font>
+        </Text>
+
+        <Text fill="WHITE" layoutX="95.0" layoutY="745.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Group of enthusiastic students">
+            <font>
+                <Font name="Tektur Narrow Regular" size="36.0" />
+            </font>
+        </Text>
+        <Text fill="#db81ef" layoutX="816.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="697.5740814208987">
+            <font>
+                <Font name="Tektur Narrow Regular" size="35.0" />
+            </font>
+        </Text>
+        <Rectangle arcWidth="5.0" fill="#5a3eb8" height="94.0" layoutX="962.0" layoutY="657.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="404.0" />
+        <Polygon fill="#5a3eb8" layoutX="1360.0" layoutY="768.0" points="6.7332763671875, -17.06671142578125, 32.3333740234375, -50.13336181640625, -39.13330078125, -50.13336181640625" stroke="#5a3eb8" strokeType="INSIDE" strokeWidth="0.0" />
+        <Polygon fill="#5a3eb8" layoutX="984.0" layoutY="699.0" points="-49.26666259765625, -13.4000244140625, 8.5999755859375, -13.4000244140625, -22.066650390625, -41.4000244140625" stroke="#5a3eb8" strokeType="INSIDE" strokeWidth="0.0" />
+        <Rectangle arcWidth="5.0" fill="#5a3eb8" height="69.0" layoutX="905.0" layoutY="682.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="84.0" />
+        <Rectangle arcWidth="5.0" fill="#5a3eb8" height="69.0" layoutX="1305.0" layoutY="657.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="114.0" />
+      <ScrollPane fx:id="homeScrollPane" hbarPolicy="NEVER" layoutX="850.0" layoutY="113.0" pannable="true" prefHeight="454.0" prefWidth="623.0" style="-fx-background-color: transparent;" stylesheets="@../../../Style/style.css" vbarPolicy="NEVER">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="691.0" prefWidth="621.0" style="-fx-background-color: transparent;" stylesheets="@../../../Style/style.css">
+               <children>
+                  <Text fill="#db81ef" layoutX="23.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This platform brought to you by Team Hilux (TH) will provide a wide range of features to support fundamental concepts in automata theory and formal languages. These features include tools for Non-deterministic Finite Automata (NFA), Deterministic Finite Automata (DFA), and Pushdown Automata (PDA). Users will also have access to tools for transforming grammars into Chomsky Normal Form (CNF) and Greibach Normal Form (GNF), which are essential for simplifying context-free grammars. Additionally, the platform will feature interactive simulations for the Tower of Hanoi, a classic problem in recursive algorithms and problem-solving. This will allow users to visualize recursive processes and gain hands-on experience with algorithms, enhancing their understanding of both formal languages and algorithmic thinking. The platform aims to support learners and practitioners in developing a comprehensive understanding of theoretical computer science concepts." wrappingWidth="573.9998893618583">
+                     <font>
+                        <Font name="Tektur Narrow Regular" size="29.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+        <JFXButton fx:id="startBTN" buttonType="RAISED" layoutX="962.0" layoutY="657.0" onAction="#Start" prefHeight="94.0" prefWidth="399.0" text="START" textFill="WHITE">
+            <font>
+                <Font name="Tektur Narrow Regular" size="45.0" />
+            </font>
+        </JFXButton>
+      <ImageView fitHeight="156.0" fitWidth="277.0" layoutX="3.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/TeamHiluxLogoInverted69-01-removebg-preview.png" />
+         </image>
+      </ImageView>
+
+    </children>
+</AnchorPane>

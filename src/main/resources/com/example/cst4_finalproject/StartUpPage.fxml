@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="788.0" prefWidth="1541.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cst4_finalproject.StartUpCont">
+    <children>
+
+
+        <Group focusTraversable="true">
+            <children>
+            <ImageView fitHeight="854.0" fitWidth="1571.0" layoutY="-20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/bg1.jpeg" />
+               </image>
+            </ImageView>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000080" height="834.0" layoutX="1.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1555.0" />
+                <Text fill="#db81ef" layoutX="401.0" layoutY="427.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FORMAL LANGUAGE MODELS" wrappingWidth="756.5115356445312">
+                    <font>
+                        <Font name="Tektur Narrow Bold" size="65.0" />
+                    </font>
+                </Text>
+
+                <Line endX="188.26666259765625" endY="262.9999694824219" layoutX="116.0" layoutY="133.0" startX="-114.0999755859375" startY="262.9999694824219" stroke="#7a449a" strokeWidth="3.0" />
+            <Polyline fill="#7a449a" layoutX="369.0" layoutY="477.0" points="-4.600006103515625, 86.0, -4.600006103515625, -230.26666259765625, -30.5333251953125, -168.80001831054688, -30.5333251953125, 17.0" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polyline fill="BLACK" layoutX="379.0" layoutY="477.0" points="-14.600006103515625, 74.0, -14.600006103515625, -218.80001831054688, -36.20001220703125, -168.80001831054688, -36.20001220703125, 16.399993896484375" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polyline fill="#5a3eb8" layoutX="389.0" layoutY="476.0" points="-24.600006103515625, 35.600006103515625, -24.600006103515625, -181.80001831054688, -30.5333251953125, -168.80001831054688, -30.5333251953125, 17.0" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polyline fill="#7a449a" layoutX="1189.0" layoutY="477.0" points="-4.600006103515625, 86.0, -4.600006103515625, -230.26666259765625, 21.399993896484375, -169.80001831054688, 21.399993896484375, 19.0" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polyline fill="BLACK" layoutX="1199.0" layoutY="477.0" points="-14.600006103515625, 74.0, -14.600006103515625, -218.80001831054688, 6.20001220703125, -169.4000244140625, 6.20001220703125, 16.199981689453125" strokeType="INSIDE" strokeWidth="0.0" />
+            <Polyline fill="#5a3eb8" layoutX="1209.0" layoutY="476.0" points="-24.600006103515625, 35.600006103515625, -24.600006103515625, -181.80001831054688, -18.600006103515625, -169.0, -18.600006103515625, 17.399993896484375" strokeType="INSIDE" strokeWidth="0.0" />
+            <Line endX="188.26666259765625" endY="262.9999694824219" layoutX="1366.0" layoutY="133.0" startX="-114.0999755859375" startY="262.9999694824219" stroke="#7a449a" strokeWidth="3.0" />
+            <Text fill="#db81ef" layoutX="406.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CST4 FINAL PROJECT " wrappingWidth="756.5115356445312">
+               <font>
+                  <Font name="Tektur Narrow Regular" size="27.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="792.0" layoutY="596.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/TeamHiluxLogoInverted69-01-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="648.0" layoutY="656.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Powered by Team Hilux" wrappingWidth="217.6334571838379">
+               <font>
+                  <Font name="Tektur Narrow Regular" size="23.0" />
+               </font>
+            </Text>
+            <JFXButton fx:id="StartButton" buttonType="RAISED" layoutX="631.0" layoutY="449.0" onAction="#handleStartButton" text="CLICK TO START" textFill="WHITE">
+               <font>
+                  <Font name="Tektur Narrow Regular" size="38.0" />
+               </font>
+            </JFXButton>
+            </children></Group>
+    </children>
+</AnchorPane>
